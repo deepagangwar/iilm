@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IILM University Chatbot</title>
+    <script type="module" src="/src/js/main.js"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container">
+            <!-- Header -->
+            <div class="chat-header">
+                <div class="header-content">
+                    <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=86&q=80" 
+                         alt="IILM University" 
+                         class="university-logo">
+                    <div class="header-text">
+                        <h1>IILM University</h1>
+                        <p>Virtual Assistant</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Messages -->
+            <div class="chat-messages" id="chat-messages"></div>
+
+            <!-- Input Form -->
+            <form class="chat-input-form" id="chat-form">
+                <input type="text" 
+                       id="chat-input" 
+                       placeholder="Type your message here..."
+                       autocomplete="off">
+                <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <footer>© 2024 IILM University Greater Noida. All rights reserved.</footer>
+    </div>
+</body>
+</html>
